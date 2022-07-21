@@ -1,0 +1,62 @@
+
+/* fonts */
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.logo-container {
+    width: 96px;
+    display: flex;
+
+}
+.logo-container img {
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 12px 100px;
+}
+
+.nav-items {
+    display: flex;
+    padding: 15px 50px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 20px;
+}
+
+.nav-items li {
+    padding: 0 10px;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.nav-items li:hover {
+    color: #1AFFD5;
+    transition: 0.5s ease-in;
+}
+
+.nav-items a {
+    background-color: #1AFFD5;
+    padding: 12px 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: #000;
+    margin-left: 12px;
+}
+
+.nav-items a:hover {
+    transform: scaleX(0.9);
+    background-color: #C9D3DF;
+    transition: 0.9s;
+}
+

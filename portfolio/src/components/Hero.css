@@ -1,0 +1,17 @@
+
+
+.hero-container{
+    display: flex;
+    margin: 50px 100px;
+}
+
+.left-greeting p {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #fff;
+}
+.left-side .left-greeting {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
