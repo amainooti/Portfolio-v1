@@ -4,12 +4,15 @@
 .container {
     width: 100%;
     display: flex;
+    background-color: #212121;
+    position: fixed;
+    top: 0;
 }
 
 .logo-container {
     width: 96px;
     display: flex;
-
+    left: 0;
 }
 .logo-container img {
     width: 100%;
@@ -21,15 +24,14 @@
     width: 100%;
     justify-content: space-between;
     margin: 12px 100px;
+
 }
 
 .nav-items {
     display: flex;
     padding: 15px 50px;
     align-items: center;
-    position: fixed;
-    top: 0;
-    right: 20px;
+
 }
 
 .nav-items li {

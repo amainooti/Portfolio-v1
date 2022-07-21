@@ -2,16 +2,52 @@
 
 .hero-container{
     display: flex;
-    margin: 80px 100px;
+    margin: 20px 100px;
 }
 
 .left-greeting p {
     text-transform: uppercase;
     font-size: 1.6rem;
-    color: #fff;
+    color: #9F9F9F;
+}
+.left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .left-side .left-greeting {
     display: flex;
     gap: 6px;
     align-items: center;
+}
+
+
+.left-intro {
+    margin-top: 20px;
+    margin-right:150px;
+}
+
+.left-intro h1 {
+    font-size: 63px;
+    color: #1AFFD5;
+}
+
+.left-intro p {
+    font-style: normal;
+    color: #ABB7C5;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.right-side-img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.right-side-img img {
+    width: 100%;
+    align-items: flex-start;
 }
