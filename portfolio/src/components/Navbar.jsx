@@ -1,4 +1,4 @@
-import {React, useState, useRef} from 'react';
+import {React, useRef} from 'react';
 import logo from "../images/AO logo (1).png";
 import otherLogo from "../images/AO logo (2).png";
 import "./Navbar.css";
@@ -6,7 +6,6 @@ import "./Navbar.css";
 
 function Navbar() {
   const imageRef = useRef(null);
-
   return (
     <div className='container'>
         <nav className="navbar">
@@ -21,6 +20,9 @@ function Navbar() {
                 src = {logo}
                 alt="Logo"
                 ref = {imageRef}
+                style = {{
+                  transition: ".3s"
+                }}
                />
             </div>
             <ul className="nav-items">

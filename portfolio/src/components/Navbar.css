@@ -18,6 +18,7 @@
     width: 100%;
     object-fit: contain;
     cursor: pointer;
+    transition: .3s;
 }
 .navbar {
     display: flex;

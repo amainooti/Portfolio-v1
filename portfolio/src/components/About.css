@@ -1,0 +1,45 @@
+
+.about__container {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.about_me {
+    width: 100%;
+    padding: 50px 222px;
+    text-align: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about_me h1 {
+    width: 100%;
+    color: #C9D3DF;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    /* position: relative; */
+}
+
+.left-arrow {
+    background-color:#393939;
+    height: 3px;
+    width: 62px;
+}
+
+.about_me p {
+    color: #C9D3DF;
+}
+
+.about__skills {
+    float: right;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}

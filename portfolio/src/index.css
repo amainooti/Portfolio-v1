@@ -37,6 +37,7 @@ a {
 
 body {
   background-color: #212121;
+  scroll-behavior: smooth;
 }
 
 p {

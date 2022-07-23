@@ -4,6 +4,7 @@ import waving from "../images/Waving Hand Medium Light Skin Tone.png";
 import heroImage from "../images/Hero Image.png"
 
 function Hero() {
+
   return (
     <div className='hero-container'>
         <div className="left-side">
