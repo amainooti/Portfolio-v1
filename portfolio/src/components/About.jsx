@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div className='about'>
         <div className="about__container">
-        <div className="about_me">
+        <div className="about__me">
         {/* <div className="left-arrow"></div> */}
           <h1>what i do</h1>
           <p>I’m a software engineer with great interest in full-stack development, artificial intelligence, human-computer interactions, and everything in between.. I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful web experiences.

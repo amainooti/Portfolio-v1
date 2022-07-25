@@ -2,6 +2,7 @@ import {React, useRef} from 'react';
 import logo from "../images/AO logo (1).png";
 import otherLogo from "../images/AO logo (2).png";
 import "./Navbar.css";
+import {Link} from "react-router-dom"
 
 
 function Navbar() {
@@ -26,10 +27,14 @@ function Navbar() {
                />
             </div>
             <ul className="nav-items">
-                <li>Home</li>
-                <li>About</li>
-                <li>Service</li>
-                <li>Portfolio</li>
+                <li>
+               <Link to="/">Home </Link> </li>
+                <li>
+               <Link to="/about"> About </Link></li>
+                <li>
+                <Link to="/services">Service </Link></li>
+                <li>
+              <Link to="portfolio">  Portfolio </Link></li>
                 <a href="home"> Contact me</a>
             </ul>
         </nav>
