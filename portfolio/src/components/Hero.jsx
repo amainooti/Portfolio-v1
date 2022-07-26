@@ -6,7 +6,7 @@ import heroImage from "../images/Hero Image.png"
 function Hero() {
 
   return (
-    <div className='hero-container'>
+    <section className='hero-container' id='home'>
         <div className="left-side">
             <div className="left-greeting">
                 <p>hi there, </p>
@@ -24,7 +24,7 @@ function Hero() {
                 <img src= {heroImage} alt="Hero" />
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

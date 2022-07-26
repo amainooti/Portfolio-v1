@@ -40,6 +40,11 @@ body {
   scroll-behavior: smooth;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   color: #fff;
 }
+
